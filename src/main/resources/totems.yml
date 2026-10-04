@@ -1,0 +1,70 @@
+rows: "5"
+title: "&8Select your Totem!"
+
+totem-assassin:
+  material: PLAYER_HEAD
+  data: 3
+  texture: ""
+  name: "&c&lAssassin Totem"
+  lore:
+    - "&a&lPerks:"
+    - "&e- 15% cooldown reduction on MedKit ability item"
+    - "&e- 15% cooldown reduction on FocusMode ability item"
+    - "&e- 10% cooldown reduction on Gapples"
+  slot: 11
+
+totem-raider:
+  material: PLAYER_HEAD
+  data: 3
+  texture: ""
+  name: "&c&lRaider Totem"
+  lore:
+    - "&a&lPerks:"
+    - "&e- 15% cooldown reduction on AntiTrapHalo ability item"
+    - "&e- 15% cooldown reduction on AntiBuild ability item"
+    - "&e- 10% cooldown reduction on Enderpearl cooldown"
+  slot: 13
+
+totem-trapper:
+  material: PLAYER_HEAD
+  data: 3
+  texture: ""
+  name: "&c&lTrapper Totem"
+  lore:
+    - "&a&lPerks:"
+    - "&e- 15% cooldown reduction on Switcher ability item"
+    - "&e- 15% cooldown reduction on SwitchStick ability item"
+    - "&e- Immunity to the SwitchStick ability item"
+  slot: 15
+
+no-totem-selected-item:
+  material: BARRIER
+  data: 0
+  name: "&cNo totem selected"
+  lore:
+    - "Totem Disabled :("
+  slot: 31
+
+totem-selected-item:
+  material: BARRIER
+  data: 0
+  name: "&cDisable Totem"
+  lore:
+    - "Click to disable"
+  slot: 31
+
+decorative-items:
+  '1':
+    material: STAINED_GLASS_PANE
+    data: 15
+    name: "&7"
+    lore:
+      - "&7"
+    slot: "ALL_EMPTY_SLOTS"
+  '2':
+    material: STAINED_GLASS_PANE
+    data: 15
+    name: "&7"
+    lore:
+      - "&7"
+    slot: "18-26"
